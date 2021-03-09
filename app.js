@@ -29,9 +29,9 @@ const server = http.createServer(async function (req, res) {
         try {
             //axios request single city
             const response =  await single_search(reqUrl.query.city);
-            let data = response.data;
+            const data = response.data;
             //create response html page to serve back
-            let html = create_response_html_single(data);
+            const html = create_response_html_single(data);
             res.writeHead(200, {'Content-Type': 'text/html'});
             res.write(html);
             res.end();
@@ -53,7 +53,7 @@ const server = http.createServer(async function (req, res) {
     // api request for multiple cities endpoint
     else if (reqUrl.pathname == '/multiple-search/' && req.method === 'GET') {
         let resultArray = [];
-        for (key in reqUrl.query) {
+        for (let key in reqUrl.query) {
             //run single search in a for loop to search all
             const response = await single_search(reqUrl.query[key]);
             resultArray.push(response.data);
