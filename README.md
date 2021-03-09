@@ -6,7 +6,7 @@
 ## Installation
 
 ```
-npm init
+npm install
 ```
 The libraries used are:
 Axios for http requests.
