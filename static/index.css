@@ -1,0 +1,13 @@
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    font-family: arial;
+    background-color: lightgrey;
+    display: table-cell;
+    vertical-align: middle;
+}
+

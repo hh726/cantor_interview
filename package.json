@@ -1,0 +1,18 @@
+{
+  "name": "cantor_interview",
+  "version": "1.0.0",
+  "description": "Coding interview for Cantor Fitzgerald",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "author": "Henry Huang",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  }
+}
