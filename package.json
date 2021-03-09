@@ -4,8 +4,7 @@
   "description": "Coding interview for Cantor Fitzgerald",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "jest"
+    "start": "node app.js"
   },
   "author": "Henry Huang",
   "license": "ISC",
